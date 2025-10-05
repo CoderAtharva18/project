@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Atlas</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- cards -->
+     <!-- <div id="card">
+     <div class="casd">
+        <img src="images/1.jpg" alt="MAN">
+        <DIV class="desc">
+            <h3>DAVID</h3>
+            <p>software engineer</p>
+        </DIV>
+    </div>
+    <div class="casd">
+        <img src="images/4.jpg" alt="WOMEN">
+        <DIV class="desc">
+            <h3>ANGELA</h3>
+            <p>CHEF</p>
+        </DIV>
+    </div>
+    </div> -->
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Wildlife Atlas</div>
+        
+        <nav>
+            <ul>
+                <li>
+                    <form action="/action">
+                    <input type="text" placeholder="search" class="search">
+                <a href="/action"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </form>
+            </li>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="action">Action Taken</a></li>
+                <li class="dropdown">
+                    <a href="#">Species Info ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="showSpecies('Extinct')" id="species">Extinct</a></li>
+                        <li><a href="#" onclick="showSpecies('Extinct in the Wild')" id="species2">Extinct in the Wild</a></li>
+                        <li><a href="#" onclick="showSpecies('Critically Endangered')" id="species3">Critically Endangered</a></li>
+                        <li><a href="#" onclick="showSpecies('Endangered')" id="species4">Endangered</a></li>
+                        <li><a href="#" onclick="showSpecies('Vulnerable')" id="species5">Vulnerable</a></li>
+                        <li><a href="#" onclick="showSpecies('Near Threatened')" id="species6">Near Threatened</a></li>
+                        <li><a href="#" onclick="showSpecies('Least Concern')" id="species7">Least Concern</a></li>
+                        <li><a href="#" onclick="showSpecies('Data Deficient')" id="species8">Data Deficient</a></li>
+                        <li><a href="#" onclick="showSpecies('Not Evaluated')" id="species9">Not Evaluated</a></li>
+                    </ul>
+                <li><a href="#" id="about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="hero">
+            <div class=" overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to Wildlife Atlas</h1>
+                <p>Explore wildlife data, maps, and species information.</p>
+            </div>
+        </section>
+        <section id="content"></section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
